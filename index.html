@@ -6,6 +6,7 @@
     <title>AWS Student Community Day at IGDTUW</title>
     <link rel="stylesheet" href="./perLoader.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="my-schedule.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -23,6 +24,7 @@
       rel="stylesheet"
     />
   </head>
+  
   <body class="loading">
     <div class="preloader">
       <div class="loader"></div>
@@ -110,24 +112,6 @@
         <section id="why-join" class="join-us-section">
           <h2>Why Join Us?</h2>
           <div class="join-us-content">
-            <!-- <div class="reason-card">
-              <h3>
-                Engaging <br />
-                Talks
-              </h3>
-              <p>Discover insightful talks by industry experts.</p>
-            </div>
-
-            <div class="reason-card">
-              <h3>Networking Opportunities</h3>
-              <p>Connect with professionals and expand your network.</p>
-            </div>
-
-            <div class="reason-card">
-              <h3>Workshops and Skill Building</h3>
-              <p>Participate in hands-on workshops to enhance your skills.</p>
-            </div> -->            
-
             <div class="reason-card">
               <h3>🎤 Speaker Sessions:</h3>
               <p>
@@ -165,7 +149,19 @@
         <section id="speakers" class="speakers-section">
           <h2 class="sub-heading">Speakers</h2>
           <div class="speakers-container">
-            <div class="speaker-card">
+
+            <!-- ═══════════════════════════════════════════
+                 SPEAKER CARDS — data-* attributes added
+                 for My Schedule feature (Task A)
+                 No visual changes to existing layout.
+            ═══════════════════════════════════════════ -->
+
+            <div class="speaker-card"
+                 data-session-id="session-jen-looper"
+                 data-name="Jen Looper"
+                 data-topic="Two Journeys, One Cloud: Career Pathways"
+                 data-company="Head of Academic Advocacy at AWS"
+                 data-time="Session 1">
               <div>
                 <img src="./assets/Speakers/Jen Looper.png" alt="speaker" />
                 <a
@@ -188,7 +184,13 @@
                 <p>Two Journeys, One Cloud: Career Pathways</p>
               </div>
             </div>
-            <div class="speaker-card">
+
+            <div class="speaker-card"
+                 data-session-id="session-aditi-sawhney"
+                 data-name="Aditi Sawhney"
+                 data-topic="Two Journeys, One Cloud: Career Pathways"
+                 data-company="Senior Digital Marketing Manager at AWS"
+                 data-time="Session 1">
               <div>
                 <img src="./assets/Speakers/aditi sawhny.jpg" alt="speaker" />
                 <a
@@ -211,7 +213,13 @@
                 <p>Two Journeys, One Cloud: Career Pathways</p>
               </div>
             </div>
-            <div class="speaker-card">
+
+            <div class="speaker-card"
+                 data-session-id="session-dipali"
+                 data-name="Dipali"
+                 data-topic="Empowering Future Innovators: Crafting CI/CD pipeline with AWS"
+                 data-company="VP of Data Engineering at Natwest Group & AWS Hero"
+                 data-time="Session 2">
               <div class="speaker-image">
                 <img src="./assets/Speakers/deepali.jpg" alt="speaker" />
                 <a
@@ -238,7 +246,13 @@
                 </p>
               </div>
             </div>
-            <div class="speaker-card">
+
+            <div class="speaker-card"
+                 data-session-id="session-varsha-verma"
+                 data-name="Varsha Verma"
+                 data-topic="Unlocking and Mastering the Cloud Basics"
+                 data-company="Senior Cloud Ops Engineer at Accenture"
+                 data-time="Session 3">
               <div class="speaker-image">
                 <img src="./assets/Speakers/VARSHA VERMA.jpeg" alt="speaker" />
                 <a
@@ -261,7 +275,13 @@
                 <p>Unlocking and Mastering the Cloud Basics</p>
               </div>
             </div>
-            <div class="speaker-card">
+
+            <div class="speaker-card"
+                 data-session-id="session-kristine-howard"
+                 data-name="Kristine Howard"
+                 data-topic="Generative AI - Asking for a friend"
+                 data-company="AWS Developer Relations & Advocacy, Asia-Pacific"
+                 data-time="Session 4">
               <div class="speaker-image">
                 <img src="./assets/Speakers/kristine.jpg" alt="speaker" />
                 <a
@@ -287,7 +307,12 @@
               </div>
             </div>
 
-            <div class="speaker-card">
+            <div class="speaker-card"
+                 data-session-id="session-gargee-bhatnagar"
+                 data-name="Gargee Bhatnagar"
+                 data-topic="AWS Security with Identity and Access Management"
+                 data-company="Consultant at Capgemini & AWS Community Builder"
+                 data-time="Session 5">
               <div class="speaker-image">
                 <img
                   src="./assets/Speakers/Gargee Bhatnagar.jpg"
@@ -313,7 +338,13 @@
                 <p>AWS Security with Identity and Access Management</p>
               </div>
             </div>
-            <div class="speaker-card">
+
+            <div class="speaker-card"
+                 data-session-id="session-rashmi-nambiar"
+                 data-name="Rashmi Nambiar"
+                 data-topic="Making the right moves in a professional landscape"
+                 data-company="Principal Marketing Manager, AWS"
+                 data-time="Session 6">
               <div class="speaker-image">
                 <img src="./assets/Speakers/rashmi.jpg" alt="speaker" />
                 <a
@@ -336,7 +367,13 @@
                 <p>Making the right moves in a professional landscape</p>
               </div>
             </div>
-            <div class="speaker-card">
+
+            <div class="speaker-card"
+                 data-session-id="session-payal-gupta"
+                 data-name="Payal Gupta"
+                 data-topic="Re-Invent Recap"
+                 data-company="Cloud Engineer at Dremio"
+                 data-time="Session 7">
               <div class="speaker-image">
                 <img src="./assets/Speakers/PAYAL GUPTA.JPG" alt="speaker" />
                 <a
@@ -359,7 +396,13 @@
                 <p>Re-Invent recap</p>
               </div>
             </div>
-            <div class="speaker-card">
+
+            <div class="speaker-card"
+                 data-session-id="session-rajani"
+                 data-name="Rajani"
+                 data-topic="Climbing the Cloud Ladder: Your AWS Career Guide"
+                 data-company="AWS Community Builder"
+                 data-time="Session 8">
               <div class="speaker-image">
                 <img src="./assets/Speakers/Photo- Rajani.jpg" alt="speaker" />
                 <a
@@ -382,6 +425,7 @@
                 <p>Climbing the Cloud Ladder: Your AWS Career Guide</p>
               </div>
             </div>
+
           </div>
         </section>
 
@@ -630,7 +674,6 @@
                 <p>Volunteer</p>
               </div>
             </div>
-
             <div class="member">
               <div class="profile-card">
                 <img
@@ -913,53 +956,53 @@
           </div>
         </section>
 
-        <section id = "faqs">
+        <section id="faqs">
           <div class="faq-container">
             <h2 style="text-align: center;">FAQs</h2>
           
-            <div class = "faq">
+            <div class="faq">
               <div class="question">Q: What is AWS Cloud Club at IGDTUW?</div>
               <div class="answer">
                 <p>The AWS Cloud Club at IGDTUW is a student organization dedicated to promoting knowledge and skills related to cloud computing using Amazon Web Services (AWS).</p>
               </div>
             </div>
             
-            <div class = "faq">
+            <div class="faq">
               <div class="question">Q: How can I join AWS Cloud Club at IGDTUW?</div>
               <div class="answer">
                 <p>To join AWS Cloud Club at IGDTUW, you can reach out to the club coordinators or attend their recruitment events.</p>
               </div>
             </div>
 
-            <div class = "faq">
+            <div class="faq">
               <div class="question">Q: What activities does AWS Cloud Club at IGDTUW organize?</div>
               <div class="answer">
                 <p>AWS Cloud Club at IGDTUW organizes workshops, seminars, hackathons, and other events to help students learn about AWS services, cloud computing concepts, and real-world applications.</p>
               </div>
             </div>
 
-            <div class = "faq">
+            <div class="faq">
               <div class="question">Q: What are the benefits of joining AWS Cloud Club at IGDTUW?</div>
               <div class="answer">
                 <p>Joining AWS Cloud Club at IGDTUW provides opportunities to enhance your cloud computing skills, network with industry professionals, and participate in hands-on projects.</p>
               </div>
             </div>
             
-            <div class = "faq">
+            <div class="faq">
               <div class="question">Q: Can beginners join AWS Cloud Club at IGDTUW?</div>
               <div class="answer">
                 <p>Yes, AWS Cloud Club at IGDTUW welcomes students of all skill levels, including beginners who are interested in learning about cloud computing and AWS services.</p>
               </div>
             </div>
 
-            <div class = "faq">
+            <div class="faq">
               <div class="question">Q: What resources does AWS Cloud Club at IGDTUW provide for its members?</div>
               <div class="answer">
                 <p>AWS Cloud Club at IGDTUW offers access to AWS credits, learning materials, and online resources to support members in their cloud computing journey.</p>
               </div>
             </div>
 
-            <div class = "faq">
+            <div class="faq">
               <div class="question">Q: Are there any prerequisites for joining AWS Cloud Club at IGDTUW?</div>
               <div class="answer">
                 <p>No specific prerequisites are required for joining AWS Cloud Club at IGDTUW. Students from all disciplines with an interest in cloud computing are encouraged to participate.</p>
@@ -969,11 +1012,10 @@
           
           <script>
             const faqs = document.querySelectorAll(".faq");
-
             faqs.forEach(faq => {
-                faq.addEventListener('click', () => {
-                    faq.classList.toggle("active");
-                });
+              faq.addEventListener('click', () => {
+                faq.classList.toggle("active");
+              });
             });
           </script>
         </section>
@@ -1022,9 +1064,13 @@
         </p>
       </div>
     </div>
+
     <script src="countdown.js"></script>
-    <script src="./preloader.js"></script>
-    <script src="./spearker_card.js"></script>
+    <script src="./preLoader.js"></script>
+    <script src="./speaker_card.js"></script>
+
+    <!-- ✅ My Schedule Feature — Task A -->
+    <script src="my-schedule.js"></script>
 
     <script>
       const sponsorLogos = document.querySelectorAll(".sponsor-logo");
@@ -1035,7 +1081,7 @@
       );
       document
         .querySelector(".sponsor-bar")
-        .appendChild(sponsorLogos[0].cloneNode(true));
+        ?.appendChild(sponsorLogos[0]?.cloneNode(true));
     </script>
 
     <!-- Google tag (gtag.js) -->
@@ -1045,11 +1091,8 @@
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag() { dataLayer.push(arguments); }
       gtag("js", new Date());
-
       gtag("config", "G-KNX3BXYLTF");
     </script>
   </body>
