@@ -1,4 +1,4 @@
-# 🌩️ AWS Student Community Day — IGDTUW
+#  AWS Student Community Day — IGDTUW
 ### Forked & Enhanced by [Vani290](https://github.com/Vani290)
 
 > **Original Repository:** [vidhiisaxena/AWS_Student_Community_Day](https://github.com/vidhiisaxena/AWS_Student_Community_Day)  
@@ -7,13 +7,13 @@
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 > 🔗 **[View Live Site](https://vani290.github.io/AWS_Student_Community_Day/)** 
 
 ---
 
-## ✨ What I Built
+## What I Built
 
 I extended the existing AWS Student Community Day event website with a fully-featured **"My Schedule"** system — a persistent, interactive personal itinerary builder that works entirely in the browser with zero backend or dependencies.
 
